@@ -1,0 +1,91 @@
+/*Luis Fuertes Camporro UO264691*/
+
+/* Especificidad: 001*/
+body{
+    background-color: aliceblue;
+}
+
+
+/* Especificidad: 001*/
+header{
+    background-color: rgb(159, 216, 197);
+    text-align: center;
+}
+
+
+/* Especificidad: 001*/
+nav, footer{
+    background-color: rgb(186, 234, 218);
+}
+
+/* Especificidad: 002*/
+nav a{
+    background-color: rgb(163, 233, 163);
+    color: black;
+}
+
+/* Especificidad: 012*/
+nav a:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+/* Especificidad: 001*/
+a{
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+}
+
+/* Especificidad: 001*/
+main{
+    background-color: rgb(215, 226, 235);
+}
+/* Especificidad: 001*/
+article{
+    background-color: rgb(206, 232, 255);
+}
+/* Especificidad: 001*/
+section{
+    padding: 5%;
+    background-color: aquamarine;
+}
+/* Especificidad: 001*/
+table{
+    width: 100%;
+    background-color:  rgb(206, 232, 255);
+    text-align: left;
+    border: solid 1px black;
+}
+/* Especificidad: 011*/
+th[title*="Tabla de versiones de React"]{
+    text-align: center;
+    background-color: blue;
+}
+/* Especificidad: 001*/
+th, td{
+    border: solid 1px black;
+}
+/* Especificidad: 001*/
+th{
+    background-color: rgb(54, 94, 169);
+    color: white;
+}
+
+/* Especificidad: 002*/
+footer p{
+    font-style: italic;
+}
+/* Especificidad: 001*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: -4px -4px 3px rgb(4, 0, 255);
+}
+/* Especificidad: 001*/
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    text-shadow: -1px -1px 1px rgb(4, 0, 255);
+}

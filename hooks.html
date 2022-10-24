@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Hooks</title>
+    <meta name ="author" content ="Luis Fuertes Camporro" />
+    <meta name ="description" content ="Información sobre los HOOKS" />
+    <meta name ="keywords" content ="hooks, estado, efecto" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenido que aparece en el navegador -->
+    <header><h1>REACT</h1></header>
+    <nav>
+        
+        <a accesskey="P" tabindex="1" href="index.html">Página Principal</a>
+        <a accesskey="C" tabindex="2" href="caracteristicasReact.html">Características React</a>
+        <a accesskey="H" tabindex="3" href="hooks.html">Hooks</a>
+        <a accesskey="V" tabindex="4" href="versiones.html">Versiones React</a>
+        <a accesskey="U" tabindex="5" href="cuestionario.html">Cuestionario de ayuda</a>
+        
+    </nav>
+    
+    <main>
+    <article>
+    <h2> Hooks</h2>
+    <p> Los Hooks son una nueva incorporación en React 16.8. Te permiten usar estado y otras características de React sin escribir una clase. </p>
+    <p>Tipos de Hooks e información sobre ellos</p>
+    <ul>
+        <li>Hook de estado (useState): React mantendrá este estado entre re-renderizados. useState devuelve un par: 
+            el valor de estado actual y una función que le permite actualizarlo. Puedes 
+            llamar a esta función desde un controlador de eventos o desde otro lugar. 
+            Es similar a this.setState en una clase, excepto que no combina el estado antiguo y el nuevo.
+        </li>
+        <li>
+            Hook de efecto (useEffect): El Hook de efecto, useEffect, agrega la capacidad de realizar efectos secundarios desde un componente de función. Tiene el mismo propósito que componentDidMount,componentDidUpdate y componentWillUnmount en las clases React, pero unificadas en una sola API.
+        </li>
+        <li>
+            Reglas sobre los Hooks:
+            <ul>
+                <li>Solo llamar Hooks en el nivel superior. No llames Hooks dentro de loops, condiciones o funciones anidadas.</li>
+                <li>Solo llamar Hooks desde componentes de función de React. No llames Hooks desde las funciones regulares de JavaScript.</li>
+            </ul>
+        </li>
+        <li>
+            Otros Hooks: Hay algunos Hooks incorporados de uso menos común que pueden resultarte útiles. Por ejemplo, useContext te permite suscribirte al contexto React sin introducir el anidamiento
+        </li>
+    </ul>
+    </article>
+    <aside>
+    <p>
+        Canción oficial de nuestra página para cuando estudias REACT 
+        <audio controls>
+            <source src="multimedia/Musica.mp3" type="audio/mp3">
+        </audio>
+    </p>
+    </aside>
+    </main>
+    <footer>
+        <p>Copyright © Luis Fuertes Camporro UO264691</p>
+    </footer>
+</body>
+
+
+
+</html>

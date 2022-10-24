@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Cuestionario React</title>
+    <meta name ="author" content ="Luis Fuertes Camporro" />
+    <meta name ="description" content ="Cuestionario sobre React" />
+    <meta name ="keywords" content ="" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenido que aparece en el navegador -->
+    <header><h1>REACT</h1></header>
+    <nav>
+        
+        <a accesskey="P" tabindex="1" href="index.html">Página Principal</a>
+        <a accesskey="C" tabindex="2" href="caracteristicasReact.html">Características React</a>
+        <a accesskey="H" tabindex="3" href="hooks.html">Hooks</a>
+        <a accesskey="V" tabindex="4" href="versiones.html">Versiones React</a>
+        <a accesskey="U" tabindex="5" href="cuestionario.html">Cuestionario de ayuda</a>
+        
+    </nav>
+    <main>
+    <article>
+    <h2> Cuestionario</h2>
+    <form>
+        <p><label for="name">Nombre: <input id="name"></label></p>
+        <p><label for="tlfn">Tlfn: <input id="tlfn" type=tel></label></p>
+        <p><label for="email">Email: <input id="email" type=email></label></p>
+        <p><label for="birth">Fecha Nacimiento: <input id="birth" type=date></label></p>
+        <fieldset>
+            <legend> ¿Como de útil te ha sido la información recibida? </legend>
+            <p><label for="rate1"> <input id="rate1" type=radio name=rate> Poco </label></p>
+            <p><label for="rate2"> <input id="rate2" type=radio name=rate> Ni mucho ni poco </label></p>
+            <p><label for="rate3"> <input id="rate3" type=radio name=rate> Mucho </label></p>
+        </fieldset>
+        <fieldset>
+            <legend> Información que echas en falta </legend>
+            <p><label for="info1"> <input id="info1" type=checkbox> Historia de React </label></p>
+            <p><label for="info2"> <input id="info2" type=checkbox> Enlaces a ejemplos de React </label></p>
+            <p><label for="info3"> <input id="info3" type=checkbox> Otra información </label></p>
+        </fieldset>
+        <p><label for="opinion">Opinión personal sobre el framework React(Opcional): <textarea id="opinion"></textarea></label></p>
+    </form>
+    <input type="submit" value="Enviar"/>
+    </article>
+    </main>
+
+    <footer>
+        <p>Copyright © Luis Fuertes Camporro UO264691</p>
+    </footer>
+</body>
+
+
+
+</html>

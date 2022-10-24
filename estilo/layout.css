@@ -1,0 +1,38 @@
+/*Luis Fuertes Camporro UO264691*/
+
+/* Especificidad: 001*/
+body{
+    display: grid;
+  
+}
+/* Especificidad: 001*/
+nav{
+   display: grid ;
+   grid-template-columns: auto auto auto auto auto;
+}
+/* Especificidad: 002*/
+nav a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
+/* Especificidad: 001*/
+main{
+    padding: 5%;
+
+}
+/* Especificidad: 001*/
+aside{
+    display: flex;
+    justify-content: center;
+}
+/* Especificidad: 001*/
+section{
+    display: flex;
+    justify-content: center;
+}
+/* Especificidad: 001*/
+img{
+    width: 20%;
+
+}
